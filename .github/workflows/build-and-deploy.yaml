@@ -24,6 +24,9 @@ jobs:
       - name: Install packages
         run: npm ci
 
+      - name: List Installed Packages
+        run: npm list
+
       - name: Run npm build
         run: npm run build
 
