@@ -1,0 +1,22 @@
+<header class="bg-blue-500 text-white">
+    <nav class="container mx-auto flex items-center justify-between p-4">
+        <a href="/" class="text-lg font-mono">(require Nathan)</a>
+        <div class="hidden md:flex space-x-4">
+            <a href="/" class="hover:bg-blue-700 p-2 rounded">Home</a>
+            <a href="/about/" class="hover:bg-blue-700 p-2 rounded">About</a>
+            <a href="/projects/" class="hover:bg-blue-700 p-2 rounded">Projects</a>
+            <a href="/contact/" class="hover:bg-blue-700 p-2 rounded">Contact</a>
+        </div>
+        <!-- Mobile menu button -->
+        <button class="md:hidden" id="mobile-menu-button">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+        </button>
+        <!-- Mobile menu items -->
+        <div class="md:hidden hidden" id="mobile-menu">
+            <a href="/" class="block hover:bg-blue-700 p-2 rounded">Home</a>
+            <a href="/about/" class="block hover:bg-blue-700 p-2 rounded">About</a>
+            <a href="/projects/" class="block hover:bg-blue-700 p-2 rounded">Projects</a>
+            <a href="/contact/" class="block hover:bg-blue-700 p-2 rounded">Contact</a>
+        </div>
+    </nav>
+</header>

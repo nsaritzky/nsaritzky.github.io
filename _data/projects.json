@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Project 1",
+    "description": "This is a brief description of Project 1.",
+    "url": "https://example.com/project1"
+  },
+  {
+    "name": "Project 2",
+    "description": "This is a brief description of Project 2.",
+    "url": "https://example.com/project2"
+  },
+  {
+    "name": "FreeCodeCamp Portfolio",
+    "description": "A few small projects made for FreeCodeCamp using HTML, CSS, and React",
+    "url": "https://nsaritzky.github.io/portfolio"
+  },
+  {
+    "name": "Chippers",
+    "description": "A Chip-8 emulator written in Rust using SDL.",
+    "url": "https://github.com/nsaritzky/chippers"
+  }
+]
