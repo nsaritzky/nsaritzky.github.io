@@ -1,11 +1,9 @@
 const Image = require("@11ty/eleventy-img");
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
 module.exports = function (eleventyConfig) {
   // Passthrough copy
   eleventyConfig.addPassthroughCopy("css/styles.css");
   eleventyConfig.addPassthroughCopy("images");
-  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
   eleventyConfig.addNunjucksAsyncShortcode(
     "image",
@@ -47,7 +45,6 @@ module.exports = function (eleventyConfig) {
 
   // Other configurations
   return {
-    pathPrefix: "/portfolio-11ty/",
     dir: {
       input: ".", // or the path to your source files
       includes: "_includes",
