@@ -24,11 +24,8 @@ jobs:
       - name: Install packages
         run: npm ci
 
-      - name: List Installed Packages
-        run: npm list
-
-      - name: Check current directory
-        run: ls -alh
+      - name: Install PostCSS
+        run: npm i -g postcss-cli
 
       - name: Run npm build
         run: npm run build
