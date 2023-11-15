@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>(require Nathan) - My Portfolio</title>
-    <link rel="stylesheet" href="/portfolio-11ty/css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body class="bg-gray-100 text-gray-900">
     <header class="bg-blue-500 text-white">
     <nav class="container mx-auto flex items-center justify-between p-4">
-        <a href="/portfolio-11ty/" class="text-lg font-mono">(require Nathan)</a>
+        <a href="/" class="text-lg font-mono">(require Nathan)</a>
         <div class="hidden md:flex space-x-4">
-            <a href="/portfolio-11ty/" class="hover:bg-blue-700 p-2 rounded">Home</a>
-            <a href="/portfolio-11ty/about/" class="hover:bg-blue-700 p-2 rounded">About</a>
-            <a href="/portfolio-11ty/projects/" class="hover:bg-blue-700 p-2 rounded">Projects</a>
-            <a href="/portfolio-11ty/contact/" class="hover:bg-blue-700 p-2 rounded">Contact</a>
+            <a href="/" class="hover:bg-blue-700 p-2 rounded">Home</a>
+            <a href="/about/" class="hover:bg-blue-700 p-2 rounded">About</a>
+            <a href="/projects/" class="hover:bg-blue-700 p-2 rounded">Projects</a>
+            <a href="/contact/" class="hover:bg-blue-700 p-2 rounded">Contact</a>
         </div>
         <!-- Mobile menu button -->
         <button class="md:hidden" id="mobile-menu-button">
@@ -22,10 +22,10 @@
         </button>
         <!-- Mobile menu items -->
         <div class="md:hidden hidden" id="mobile-menu">
-            <a href="/portfolio-11ty/" class="block hover:bg-blue-700 p-2 rounded">Home</a>
-            <a href="/portfolio-11ty/about/" class="block hover:bg-blue-700 p-2 rounded">About</a>
-            <a href="/portfolio-11ty/projects/" class="block hover:bg-blue-700 p-2 rounded">Projects</a>
-            <a href="/portfolio-11ty/contact/" class="block hover:bg-blue-700 p-2 rounded">Contact</a>
+            <a href="/" class="block hover:bg-blue-700 p-2 rounded">Home</a>
+            <a href="/about/" class="block hover:bg-blue-700 p-2 rounded">About</a>
+            <a href="/projects/" class="block hover:bg-blue-700 p-2 rounded">Projects</a>
+            <a href="/contact/" class="block hover:bg-blue-700 p-2 rounded">Contact</a>
         </div>
     </nav>
 </header>
@@ -36,9 +36,16 @@
 <section class="text-center p-8 bg-gray-100">
     <div class="container mx-auto flex flex-col md:flex-row items-center">
         <picture>
-            <source type="image/avif" srcset="/portfolio-11ty/images/gIHnRgDuF4-300.avif 300w, /portfolio-11ty/images/gIHnRgDuF4-600.avif 600w, /portfolio-11ty/images/gIHnRgDuF4-1200.avif 1200w">
-<source type="image/jpeg" srcset="/portfolio-11ty/images/gIHnRgDuF4-300.jpeg 300w, /portfolio-11ty/images/gIHnRgDuF4-600.jpeg 600w, /portfolio-11ty/images/gIHnRgDuF4-1200.jpeg 1200w">
-            <img src="/portfolio-11ty/images/gIHnRgDuF4-300.jpeg" width="300" height="300" alt="Me!" class="rounded-full w-48 h-48 mx-auto md:mx-0 md:mr-8" loading="lazy" decoding="async">
+            <source type="image/avif" srcset="/images/gIHnRgDuF4-300.avif 300w, /images/gIHnRgDuF4-600.avif 600w, /images/gIHnRgDuF4-1200.avif 1200w">
+<source type="image/jpeg" srcset="/images/gIHnRgDuF4-300.jpeg 300w, /images/gIHnRgDuF4-600.jpeg 600w, /images/gIHnRgDuF4-1200.jpeg 1200w">
+            <img
+                src="/images/gIHnRgDuF4-300.jpeg"
+                width="300"
+                height="300"
+                alt="Me!"
+                class="rounded-full w-48 h-48 mx-auto md:mx-0 md:mr-8"
+                loading="lazy"
+                decoding="async">
         </picture>
         <div>
             <h1 class="text-4xl font-bold mt-4 md:mt-0">Hi, I'm Nathan Saritzky</h1>
@@ -51,7 +58,7 @@
     </main>
 
     <footer>
-  <p>© 2023 My Portfolio</p>
+  <p>© 2023 Nathan Saritzky</p>
 </footer>
 
     <script>
