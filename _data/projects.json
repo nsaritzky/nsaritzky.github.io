@@ -8,5 +8,25 @@
     "name": "Chippers",
     "description": "A Chip-8 emulator written in Rust using SDL.",
     "url": "https://github.com/nsaritzky/chippers"
+  },
+  {
+    "name": "My-SQLite",
+    "description": "A partial SQLite clone written in Rust.",
+    "url": "https://github.com/nsaritzky/my-sqlite"
+  },
+  {
+    "name": "Solid Currency Input Field",
+    "description": "A currency input field ported from React to SolidJS",
+    "url": "https://github.com/nsaritzky/solid-currency-input-field"
+  },
+  {
+    "name": "INAB",
+    "description": "A work-in-progress personal budgeting app made with Typescript, SolidJS, and Prisma",
+    "url": "https://github.com/nsaritzky/inab"
+  },
+  {
+    "name": "6Nimmt",
+    "description": "An adaptation of the card game 6Nimmt made with Typescript, Boardgame.io, and React",
+    "url": "https://github.com/nsaritzky/6nimmt"
   }
 ]
