@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects - My Portfolio</title>
-    <link rel="stylesheet" href="/css/styles.css">
-</head>
-<body class="bg-gray-100 text-gray-900">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - (require Nathan)</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body class="bg-gray-100 text-gray-900">
     <header class="bg-blue-500 text-white">
     <nav class="container mx-auto flex items-center justify-between p-4">
         <a href="/" class="text-lg font-mono">(require Nathan)</a>
@@ -32,10 +32,15 @@
 
 
     <main class="container mx-auto py-6">
-      
 <h1 class="text-2xl font-bold mb-4">My Projects</h1>
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    
+        <div class="border p-4 rounded hover:shadow-lg transition-shadow">
+            <h2 class="text-xl font-semibold">Kanban</h2>
+            <p>A Kanban board made with Typescript, React, and Redux</p>
+            <a href="https://github.com/nsaritzky/kanban" class="text-blue-500 hover:text-blue-700">Learn More</a>
+        </div>
     
         <div class="border p-4 rounded hover:shadow-lg transition-shadow">
             <h2 class="text-xl font-semibold">FreeCodeCamp Portfolio</h2>
@@ -74,18 +79,18 @@
         </div>
     
 </div>
-
-    </main>
+</main>
 
     <footer>
   <p>© 2023 Nathan Saritzky</p>
 </footer>
 
     <script>
-     document.getElementById('mobile-menu-button').addEventListener('click', function() {
-       document.getElementById('mobile-menu').classList.toggle('hidden');
-     });
+      document
+        .getElementById("mobile-menu-button")
+        .addEventListener("click", function () {
+          document.getElementById("mobile-menu").classList.toggle("hidden");
+        });
     </script>
-
-</body>
+  </body>
 </html>
