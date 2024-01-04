@@ -1,5 +1,10 @@
 [
   {
+    "name": "Kanban",
+    "description": "A Kanban board made with Typescript, React, and Redux",
+    "url": "https://github.com/nsaritzky/kanban"
+  },
+  {
     "name": "FreeCodeCamp Portfolio",
     "description": "A few small projects made for FreeCodeCamp using HTML, CSS, and React",
     "url": "https://nsaritzky.github.io/portfolio"

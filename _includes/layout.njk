@@ -1,24 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if title %}{{ title }} - {% endif %}My Portfolio</title>
-    <link rel="stylesheet" href="/css/styles.css">
-</head>
-<body class="bg-gray-100 text-gray-900">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if title %}{{ title }} - {% endif %}(require Nathan)</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body class="bg-gray-100 text-gray-900">
     {% include "header.njk" %}
 
-    <main class="container mx-auto py-6">
-      {{ content | safe }}
-    </main>
+    <main class="container mx-auto py-6">{{ content | safe }}</main>
 
     {% include "footer.njk" %}
     <script>
-     document.getElementById('mobile-menu-button').addEventListener('click', function() {
-       document.getElementById('mobile-menu').classList.toggle('hidden');
-     });
+      document
+        .getElementById("mobile-menu-button")
+        .addEventListener("click", function () {
+          document.getElementById("mobile-menu").classList.toggle("hidden");
+        });
     </script>
-
-</body>
+  </body>
 </html>
