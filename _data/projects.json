@@ -2,7 +2,7 @@
     {
         "name": "Nedis",
         "description": "A multithreaded Redis implementation written in Rust",
-        "url": "https://github.com/nsaritzky/nedis"
+        "url": "https://codeberg.org/nsaritzky/nedis"
     },
     {
         "name": "Kanban",
